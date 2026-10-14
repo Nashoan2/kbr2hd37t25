@@ -20,6 +20,7 @@
         android:layout_marginBottom="6dp"
         android:layoutDirection="ltr"
         android:background="@drawable/bg_toolbar_neon"
+        android:visibility="visible"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">

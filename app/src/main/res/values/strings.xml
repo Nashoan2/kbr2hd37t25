@@ -20,7 +20,7 @@
     <string name="manage_clips">You can manage or add clips here for quick access.</string>
     <string name="clip_text">Clip text</string>
     <string name="pin_text">Pin text</string>
-    <string name="text_pinned">Text has been pinned</string>
+    <string name="text_pinned">Pinned</string>
     <string name="export_clipboard_items">Export clipboard items</string>
     <string name="import_clipboard_items">Import clipboard items</string>
     <!-- Accessibility -->
@@ -84,7 +84,7 @@
     <string name="tool_gifs">GIFs</string>
     <string name="tool_languages">Languages</string>
     <string name="unpin_text">Unpin</string>
-    <string name="text_unpinned">Text unpinned</string>
+    <string name="text_unpinned">Unpinned</string>
     <string name="enable_voice_typing_settings">Please enable Google Voice Typing in keyboard settings</string>
     <string name="backup_and_restore">Backup and restore</string>
     <string name="backup_clipboard_items">Backup saved texts</string>

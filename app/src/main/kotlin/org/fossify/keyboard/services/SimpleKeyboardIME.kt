@@ -348,6 +348,7 @@ class SimpleKeyboardIME : InputMethodService(), OnKeyboardActionListener, Shared
             keyboard?.let { keyboardView?.setKeyboard(it) }
         }
         keyboardView?.handleClipboard()
+        keyboardView?.ensureToolbarVisible()
         binding.keyboardHolder.post {
             ViewCompat.requestApplyInsets(binding.keyboardHolder)
         }

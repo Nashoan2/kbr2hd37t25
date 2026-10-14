@@ -14,7 +14,7 @@
     <string name="manage_clips">يمكنك إدارة أو إضافة مقاطع هنا للوصول السريع.</string>
     <string name="clip_text">نص القصاصة</string>
     <string name="pin_text">تثبيت</string>
-    <string name="text_pinned">تم تثبيت النص</string>
+    <string name="text_pinned">تم التثبيت</string>
     <string name="keycode_mode_change">تغيير نوع لوحة المفاتيح</string>
     <string name="keycode_space">شريط المسافة</string>
     <string name="manage_keyboard_languages">إدارة لغات لوحة المفاتيح</string>
@@ -84,6 +84,6 @@
     <string name="tool_gifs">صور GIF</string>
     <string name="tool_languages">اللغات</string>
     <string name="unpin_text">إلغاء التثبيت</string>
-    <string name="text_unpinned">تم إلغاء تثبيت النص</string>
+    <string name="text_unpinned">تم إلغاء التثبيت</string>
     <string name="enable_voice_typing_settings">يرجى تفعيل الكتابة بالصوت من Google في إعدادات لوحة المفاتيح</string>
 </resources>

@@ -363,7 +363,7 @@ class MyKeyboardView @JvmOverloads constructor(
         invalidateAllKeys()
         computeProximityThreshold(keyboard)
         mMiniKeyboardCache.clear()
-        mToolbarHolder?.beInvisibleIf(context.isDeviceLocked)
+        mToolbarHolder?.beVisible()
 
         accessHelper = AccessHelper(this, mKeyboard?.mKeys.orEmpty())
         ViewCompat.setAccessibilityDelegate(this, accessHelper)
@@ -747,7 +747,7 @@ class MyKeyboardView @JvmOverloads constructor(
             pinnedClipboardItems.applyColorFilter(toolbarIconColor)
             toolbarCollapse.applyColorFilter(toolbarIconColor)
 
-            mToolbarHolder?.beInvisibleIf(context.isDeviceLocked)
+            mToolbarHolder?.beVisible()
 
             topClipboardDivider.beGone()
             clipboardManagerHolder.background = ColorDrawable(Color.parseColor("#081022"))
@@ -1872,7 +1872,12 @@ class MyKeyboardView @JvmOverloads constructor(
             textEditorHolder.beGone()
             numericKeypadHolder.beGone()
             suggestionsHolder.showAllInlineContentViews()
+            mToolbarHolder?.beVisible()
         }
+    }
+
+    fun ensureToolbarVisible() {
+        mToolbarHolder?.beVisible()
     }
 
     fun openNumericKeypad() {
