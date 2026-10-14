@@ -104,10 +104,9 @@
             app:popupCharacters="رژ"
             app:popupKeyboard="@xml/keyboard_popup_template" />
         <Key
-            app:code="1569"
-            app:keyLabel="ء"
+            app:keyLabel="ر"
             app:keyWidth="9.0909%p"
-            app:popupCharacters="ئؤر"
+            app:popupCharacters="زژ"
             app:popupKeyboard="@xml/keyboard_popup_template" />
         <Key
             app:keyLabel="و"
@@ -133,10 +132,10 @@
             app:keyLabel="123"
             app:keyWidth="13%p" />
         <Key
-            app:code="1593"
-            app:keyLabel="ع"
+            app:code="1569"
+            app:keyLabel="ء"
             app:keyWidth="10%p"
-            app:popupCharacters="ءرغ"
+            app:popupCharacters="ئؤ"
             app:popupKeyboard="@xml/keyboard_popup_template" />
         <Key
             app:code="-6"
